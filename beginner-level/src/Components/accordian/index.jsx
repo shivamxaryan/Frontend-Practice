@@ -52,7 +52,6 @@ const Accordian = () => {
                   <div>{dataItem.answer} </div>
                 
               : selected === dataItem.id && <div>{dataItem.answer} </div>}
-            {/* {selected === dataItem.id ? <p>{dataItem.answer}</p> : null} */}
           </div>
         ))
       ) : (
